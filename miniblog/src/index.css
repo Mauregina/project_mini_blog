@@ -90,7 +90,7 @@ textarea::placeholder {
   padding: 7px 30px;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]) {
   background-color: #0f730c;
   color: #fff;
 }
